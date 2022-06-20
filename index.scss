@@ -1,25 +1,24 @@
+//import google font
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+@import 'variables';
+
+/* reset style*/
+* {
+    color: inherit;
+    margin: 0;
+}
+
+body {
+    font-family: Poppins;
+}
+
 h1 {
     a {
         color: red;
     }
 }
 
-//variables --theme colors
-$primary: #326dee;
-$secondary: #1ac888;
-$error: #d32752;
-$info: #f6c31c;
-$btnColor: #00003b;
-$textColor:  #fff;
-
-//spacing
-$base-padding: 0.75rem;
-$base-margin: 0.75rem;
-
-//borders
-$base-border-thickness: 1px;
-$base-border-radius: 20px;
-$base-border-style: solid;
 h1 {
     color: $primary;
     margin-bottom: $base-margin;
