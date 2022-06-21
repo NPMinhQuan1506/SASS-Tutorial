@@ -1,5 +1,5 @@
 //import google font
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
 // variables & functions
 @import 'variables';
 
@@ -11,5 +11,6 @@
 
 // components (button, card, navbar)
 @import 'components/card';
+@import 'components/button';
 
 //utilities (margin, padding, opacity)
