@@ -11,6 +11,7 @@
     font-size: $base-font-size;
     padding-bottom: $base-padding;
     font-weight: bold;
+    background-color: map-get($colors, "secondary" );
   }
 
   .card-body {
@@ -22,7 +23,8 @@
   }
 }
 
-@debug "hi ahihi";
-@debug math.div(10,3);
-@debug math.floor(2.6);
-@debug math.max(1px, 20px, 2px, 12px);
+
+// @debug "hi ahihi";
+// @debug math.div(10,3);
+// @debug math.floor(2.6);
+// @debug math.max(1px, 20px, 2px, 12px);
