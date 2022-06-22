@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>SCSS Tutorial - Home Page</title>
+    <style>
+        img[img-data='img-malphite'] {
+            padding-bottom: 1.4rem;
+        }
+
+        .mario-team {
+            min-height: 530px;
+            /* height: 530px; */
+        }
+
+        .title-team::after {
+            content: "";
+            display: inherit;
+            position: relative;
+            top: 1px;
+            left: 0;
+            width: 0%;
+            border-bottom: 3px solid #0f0f8a;
+            transition: width 0.3s ease;
+        }
+
+        .title-team:hover:after {
+            width: 12%;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="site-title">Ahihi Designs</h1>
+            <ul class="d-flex">
+                <li class="ml-1 text-hover-secondary"><a href="#work">Our Work</a></li>
+                <li class="ml-1 text-hover-secondary"><a href="#about">About Us</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- intro -->
+    <div class="container mt-5">
+        <div class="row justify-center">
+            <div class="col-12-xs col-5-md col-lg-4">
+                <h2>
+                    <div class="font-xxl">Mou&Apple</div>
+                    <div class="font-xxl text-secondary">Ahihi Website</div>
+                </h2>
+                <p class="text-gray mt-2 mb-3 col-lg-4">
+                    Contrary to popular belief, Lorem Ipsum is not simply random text.
+                    It has roots in a piece of classical Latin literature from 45 BC,
+                    making it over 2000 years old.
+                </p>
+            </div>
+            <div class="col-12-xs col-5-md col-lg-4  ">
+                <img src="./img/MyImage.png" alt="">
+            </div>
+            <div class="col-12-xs col-5-md col-lg-4">
+                <a href="#work" class="btn-outlined-secondary text-secondary text-hover-white ml-0">
+                    View Our Work
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- about -->
+    <section id="about" class="bg-secondary-light-9 mt-5 pt-4 pb-4">
+        <div class="container">
+            <h2 class="mb-2">About Ahihi Designs</h2>
+            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti
+                atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident,
+                similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum
+                quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio
+                cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est,
+                omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus
+                saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic
+                tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis
+                doloribus asperiores repellat.
+            </p>
+            <p class="mt-1">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum.
+            </p>
+        </div>
+    </section>
+    <!-- work section -->
+    <section id="work" class="mt-5">
+        <div class="container">
+            <h2 class="title-team d-block text-blue-dark-7 text-hover-blue-dark-4 mb-1">Mario Team</h2>
+            <div class="row gap-2">
+                <div class="col-12-xs col-6-md col-4-lg">
+                    <div class="card p-0 mario-team  bg-hover-red-light-9 text-hover-red-dark-9">
+                        <h3 class="card-title m-1">One Champ Vayne</h3>
+                        <img src="./img/Vayne.png" alt="Vayne Image" class="w-55 pl-5">
+                        <p class="m-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer convallis nisi
+                            non mi imperdiet, suscipit tincidunt sem mattis. Pellentesque et mi tellus</p>
+                    </div>
+                </div>
+                <div class="col-12-xs col-6-md col-4-lg">
+                    <div class="card p-0 mario-team bg-hover-brown-light-9 text-hover-brown-dark-9">
+                        <h3 class="card-title m-1">One Champ Malphite</h3>
+                        <img src="./img/Malphite.png" alt="" class="w-95" img-data="img-malphite">
+                        <p class="m-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer convallis nisi
+                            non mi imperdiet, suscipit tincidunt sem mattis. Pellentesque et mi tellus</p>
+                    </div>
+                </div>
+                <div class="col-12-xs col-6-md col-4-lg">
+                    <div class="card p-0 mario-team bg-hover-blue-light-9 text-hover-blue-dark-9">
+                        <h3 class="card-title m-1">One Champ Yasuo</h3>
+                        <img src="./img/Yasuo.png" alt="Yasuo Image" class="w-60 pl-4 pb-1">
+                        <p class="m-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer convallis nisi
+                            non mi imperdiet, suscipit tincidunt sem mattis. Pellentesque et mi tellus</p>
+                    </div>
+                </div>
+                <div class="col-12-xs col-6-md col-4-lg">
+                    <div class="card p-0 mario-team bg-hover-purple-light-9 text-hover-purple-dark-9">
+                        <h3 class="card-title m-1">One Champ Vel'koz</h3>
+                        <img src="./img/Velkoz.png" alt="Velkoz Image" class="w-90 pb-1">
+                        <p class="m-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer convallis nisi
+                            non mi imperdiet, suscipit tincidunt sem mattis. Pellentesque et mi tellus</p>
+                    </div>
+                </div>
+                <div class="col-12-xs col-6-md col-4-lg">
+                    <div class="card p-0 mario-team bg-hover-yellow-light-9 text-hover-yellow-dark-9">
+                        <h3 class="card-title m-1">One Champ Poppy</h3>
+                        <img src="./img/Poppy.png" alt="Poppy Image" class="w-80 pl-3 pb-2">
+                        <p class="m-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer convallis nisi
+                            non mi imperdiet, suscipit tincidunt sem mattis. Pellentesque et mi tellus</p>
+                    </div>
+                </div>
+                <div class="col-12-xs col-6-md col-4-lg">
+                    <div class="card p-0 mario-team bg-hover-gray-light-9 text-hover-gray-dark-9">
+                        <h3 class="card-title m-1">One Champ Dairius</h3>
+                        <img src="./img/Dairius.png" alt="Dairius Image" class="w-60 pl-4 pb-1">
+                        <p class="m-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer convallis nisi
+                            non mi imperdiet, suscipit tincidunt sem mattis. Pellentesque et mi tellus</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-center mt-2">
+                <button class="btn-purple text-white font-md">View All</button>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer class="bg-gray-light-7 pt-2 pb-2 mt-5 ">
+        <div class="container text-center">
+            copyright 2022 Ahihi Design
+        </div>
+    </footer>
+</body>
+
+</html>
