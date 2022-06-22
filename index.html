@@ -1,144 +1,152 @@
 <!DOCTYPE html>
-<br lang="en">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/index.css">
-    <title>SASS Tutorial</title>
+    <title>SCSS Tutorial</title>
 </head>
-
-<h2>Colors</h2>
-<div class="card">
-    <div class="card-body">
+<body>
+    <nav class="navbar bg-blue-dark-7 text-white mb-4">
+        <div class="container">
+            <h2 class="site-title">Ahihi css</h2>
+            <p>A lightweight css library for dev ahihi</p>
+        </div>
+    </nav>
+    <div class="container">
         <!-- colors -->
-        | <span class="text-primary">primary text</span>
-        | <span class="text-secondary">secondary text</span>
-        | <span class="text-error">error text</span>
-        | <span class="text-info">info text</span>
-        | <span class="text-blue">blue text</span>
-        | <span class="text-red">red text</span>
-        | <span class="text-green">green text</span>
-        | <span class="text-yellow">yellow text</span>
+        <h2>Colors</h2>
+        <div class="card">
+            <div class="card-body">
 
-        <br> </br>
+                | <span class="text-primary">primary text</span>
+                | <span class="text-secondary">secondary text</span>
+                | <span class="text-error">error text</span>
+                | <span class="text-info">info text</span>
+                | <span class="text-blue">blue text</span>
+                | <span class="text-red">red text</span>
+                | <span class="text-green">green text</span>
+                | <span class="text-yellow">yellow text</span>
 
-        | <span class="bg-primary text-white">primary background</span>
-        | <span class="bg-secondary text-white">secondary background</span>
-        | <span class="bg-error text-white">error background</span>
-        | <span class="bg-info text-white">info background</span>
-        | <span class="bg-blue text-white">blue background</span>
-        | <span class="bg-red text-white">red background</span>
-        | <span class="bg-green text-white">green background</span>
-        | <span class="bg-yellow text-white">yellow background</span>
+                <br> </br>
 
-        <br> </br>
+                | <span class="bg-primary text-white">primary background</span>
+                | <span class="bg-secondary text-white">secondary background</span>
+                | <span class="bg-error text-white">error background</span>
+                | <span class="bg-info text-white">info background</span>
+                | <span class="bg-blue text-white">blue background</span>
+                | <span class="bg-red text-white">red background</span>
+                | <span class="bg-green text-white">green background</span>
+                | <span class="bg-yellow text-white">yellow background</span>
 
-        | <span class="bg-primary-light-9 ">primary dark 9</span>
-        | <span class="bg-primary-light-8 ">primary dark 8</span>
-        | <span class="bg-primary-light-7 ">primary dark 7</span>
-        | <span class="bg-primary-light-6 ">primary dark 6</span>
-        | <span class="bg-primary-light-5 ">primary dark 5</span>
-        | <span class="bg-primary-light-4 ">primary dark 4</span>
-        | <span class="bg-primary-light-3 ">primary dark 3</span>
-        | <span class="bg-primary-light-2 ">primary dark 2</span>
-        | <span class="bg-primary-light-1 ">primary dark 1</span>
+                <br> </br>
 
-        <br> </br>
+                | <span class="bg-primary-light-9 ">primary dark 9</span>
+                | <span class="bg-primary-light-8 ">primary dark 8</span>
+                | <span class="bg-primary-light-7 ">primary dark 7</span>
+                | <span class="bg-primary-light-6 ">primary dark 6</span>
+                | <span class="bg-primary-light-5 ">primary dark 5</span>
+                | <span class="bg-primary-light-4 ">primary dark 4</span>
+                | <span class="bg-primary-light-3 ">primary dark 3</span>
+                | <span class="bg-primary-light-2 ">primary dark 2</span>
+                | <span class="bg-primary-light-1 ">primary dark 1</span>
 
-        | <span class="bg-primary-dark-1 text-white">primary dark 1</span>
-        | <span class="bg-primary-dark-2 text-white">primary dark 2</span>
-        | <span class="bg-primary-dark-3 text-white">primary dark 3</span>
-        | <span class="bg-primary-dark-4 text-white">primary dark 4</span>
-        | <span class="bg-primary-dark-5 text-white">primary dark 5</span>
-        | <span class="bg-primary-dark-6 text-white">primary dark 6</span>
-        | <span class="bg-primary-dark-7 text-white">primary dark 7</span>
-        | <span class="bg-primary-dark-8 text-white">primary dark 8</span>
-        | <span class="bg-primary-dark-9 text-white">primary dark 9</span>
+                <br> </br>
 
-        <br></br>
+                | <span class="bg-primary-dark-1 text-white">primary dark 1</span>
+                | <span class="bg-primary-dark-2 text-white">primary dark 2</span>
+                | <span class="bg-primary-dark-3 text-white">primary dark 3</span>
+                | <span class="bg-primary-dark-4 text-white">primary dark 4</span>
+                | <span class="bg-primary-dark-5 text-white">primary dark 5</span>
+                | <span class="bg-primary-dark-6 text-white">primary dark 6</span>
+                | <span class="bg-primary-dark-7 text-white">primary dark 7</span>
+                | <span class="bg-primary-dark-8 text-white">primary dark 8</span>
+                | <span class="bg-primary-dark-9 text-white">primary dark 9</span>
 
-        <a href="" class="text-primary text-hover-orange-light-1">Hover me</a>
+                <br></br>
+
+                <a href="" class="text-primary text-hover-orange-light-1">Hover me</a>
+            </div>
+        </div>
+
+        <!-- font sizes -->
+        <h2 class="mb-2 mt-2">Font Sizes</h2>
+        <div class="card">
+            <div class="font-sm">this is small font</div>
+            <div class="font-md">this is medium font</div>
+            <div class="font-lg">this is large font</div>
+            <div class="font-xl">this is extra font</div>
+            <div class="font-xxl">this is extra x2 font</div>
+        </div>
+
+        <!-- buttons -->
+        <h2 class="mt-2">Buttons</h2>
+        <div class="card">
+            <a href="#" class="btn">default button</a>
+            <a href="#" class="btn-primary text-white">click me</a>
+            <a href="#" class="btn-secondary text-white">click me</a>
+            <a href="#" class="btn-error text-white">click me</a>
+            <a href="#" class="btn-info text-white">click me</a>
+            <a href="#" class="btn-outlined-purple text-purple text-hover-white">click me</a>
+            <a href="#" class="btn-outlined-orange text-orange text-hover-white">click me</a>
+            <a href="#" class="btn-complement-orange text-white">click me</a>
+            <a href="#" class="btn-complement-purple">click me</a>
+        </div>
+
+        <!-- cards -->
+        <h2 class="mt-2">Cards</h2>
+        <div class="card mb-3">
+            <h1 class="card-title">This is a card title</h1>
+            <p class="card-body">is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
+                took a
+                <a href="#">Why do we use it?</a>It is a long established fact that a reader will be distracted by the
+                readable content of a
+                page when looking at its layou
+            </p>
+        </div>
+
+        <!-- grid system -->
+        <h2>Grid</h2>
+        <div class="card mb-3">
+            <div class="row gap-2 justify-end">
+                <div class="col-12-xs col-5-sm col-3-xl">
+                    <div class="card">
+                        <div class="card-title">Hello Ahhiii</div>
+                        <div class="card-body">There are many variations of passages of Lorem Ipsum available,
+                            but the majority have suffered alteration in some form, by injected humour
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12-xs col-5-sm col-3-xl">
+                    <div class="card">
+                        <div class="card-title">Hello Ahhiii</div>
+                        <div class="card-body">There are many variations of passages of Lorem Ipsum available,
+                            but the majority have suffered alteration in some form, by injected humour
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12-xs col-5-sm col-3-xl">
+                    <div class="card">
+                        <div class="card-title">Hello Ahhiii</div>
+                        <div class="card-body">There are many variations of passages of Lorem Ipsum available,
+                            but the majority have suffered alteration in some form, by injected humour
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12-xs col-5-sm col-3-xl">
+                    <div class="card">
+                        <div class="card-title">Hello Ahhiii</div>
+                        <div class="card-body">There are many variations of passages of Lorem Ipsum available,
+                            but the majority have suffered alteration in some form, by injected humour
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-</div>
-
-<!-- font sizes -->
-<h2 class="mb-2 mt-2">Font Sizes</h2>
-<div class="card">
-    <div class="font-sm">this is small font</div>
-    <div class="font-md">this is medium font</div>
-    <div class="font-lg">this is large font</div>
-    <div class="font-xl">this is extra font</div>
-    <div class="font-xxl">this is extra x2 font</div>
-</div>
-
-<!-- buttons -->
-<h2 class="mt-2">Buttons</h2>
-<div class="card">
-    <a href="#" class="btn">default button</a>
-    <a href="#" class="btn-primary text-white">click me</a>
-    <a href="#" class="btn-secondary text-white">click me</a>
-    <a href="#" class="btn-error text-white">click me</a>
-    <a href="#" class="btn-info text-white">click me</a>
-    <a href="#" class="btn-outlined-purple text-purple text-hover-white">click me</a>
-    <a href="#" class="btn-outlined-orange text-orange text-hover-white">click me</a>
-    <a href="#" class="btn-complement-orange text-white">click me</a>
-    <a href="#" class="btn-complement-purple">click me</a>
-</div>
-
-<!-- cards -->
-<h2 class="mt-2">Cards</h2>
-<div class="card mb-3">
-    <h1 class="card-title">This is a card title</h1>
-    <p class="card-body">is simply dummy text of the printing and typesetting industry.
-        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
-        <a href="#">Why do we use it?</a>It is a long established fact that a reader will be distracted by the
-        readable content of a
-        page when looking at its layou
-    </p>
-</div>
-
-<!-- grid system -->
-<h2>Grid</h2>
-<div class="card mb-3">
-    <div class="row gap-2 justify-end">
-        <div class="col-12-xs col-5-sm col-3-xl">
-            <div class="card">
-                <div class="card-title">Hello Ahhiii</div>
-                <div class="card-body">There are many variations of passages of Lorem Ipsum available,
-                    but the majority have suffered alteration in some form, by injected humour
-                </div>
-            </div>
-        </div>
-        <div class="col-12-xs col-5-sm col-3-xl">
-            <div class="card">
-                <div class="card-title">Hello Ahhiii</div>
-                <div class="card-body">There are many variations of passages of Lorem Ipsum available,
-                    but the majority have suffered alteration in some form, by injected humour
-                </div>
-            </div>
-        </div>
-        <div class="col-12-xs col-5-sm col-3-xl">
-            <div class="card">
-                <div class="card-title">Hello Ahhiii</div>
-                <div class="card-body">There are many variations of passages of Lorem Ipsum available,
-                    but the majority have suffered alteration in some form, by injected humour
-                </div>
-            </div>
-        </div>
-        <div class="col-12-xs col-5-sm col-3-xl">
-            <div class="card">
-                <div class="card-title">Hello Ahhiii</div>
-                <div class="card-body">There are many variations of passages of Lorem Ipsum available,
-                    but the majority have suffered alteration in some form, by injected humour
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- utilities -->
+    <!-- utilities -->
 </body>
 
 </html>
